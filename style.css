@@ -1,0 +1,37 @@
+html, body, #map-canvas {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+}
+
+#info {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 250px;
+	height: 250px;
+	background-color: #fff;
+	        border-radius: 15px;
+	   -moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	        box-shadow: 0 0 1em #808080;
+	   -moz-box-shadow: 0 0 1em #808080;
+	-webkit-box-shadow: 0 0 1em #808080;
+	padding: 10px;
+}
+#info > h1 {
+	margin-top: 0;
+}
+#info form > ul {
+	list-style: none;
+	padding-left: 0;
+}
+#info form > ul > li > ul {
+	list-style: none;
+	padding-left: 15px;
+}

@@ -1,2 +1,2 @@
-F1 Circuits
-===========
+F1&reg; Circuits
+================

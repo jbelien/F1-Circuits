@@ -4,48 +4,35 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-		<title>Formula1 Circuits</title>
-		<style type="text/css">
-			html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
-		</style>
-		<!--<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqsNamzWOVmpGCAETlmY43gcfJG7NbWp8&amp;sensor=true"></script>
-		<script type="text/javascript">
-			function initialize() {
-				var mapOptions = {
-					center: { lng: 4, lat: 50.8333 },
-					zoom: 8,
-					streetViewControl: false,
-					mapTypeId: google.maps.MapTypeId.TERRAIN,
-					mapTypeControlOptions: { mapTypeIds: [ google.maps.MapTypeId.TERRAIN, google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.HYBRID, google.maps.MapTypeId.ROADMAP ] },
-					scaleControl: true,
-					overviewMapControl: true,
-					overviewMapControlOptions: { opened: true }
-				};
-				var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-				map.data.loadGeoJson('./geojson/BE-Spa-Francorchamps (1).json');
-				map.data.setStyle(function(feature) {
-					return {
-						strokeColor: feature.getProperty('stroke-color'),
-						strokeOpacity: feature.getProperty('stroke-opacity'),
-						strokeWeight: feature.getProperty('stroke-width'),
-						title: feature.getProperty('title')
-					}
-				});
-				map.data.addListener('click', function(event) {
-					var content = event.feature.getProperty('title')+'<br>'+event.feature.getProperty('description');
-					var info = new google.maps.InfoWindow({ content: content, position: event.latLng }).open(map);
-				});
-				map.data.loadGeoJson('./geojson/BE-Spa-Francorchamps (2).json');
-				map.data.loadGeoJson('./geojson/BE-Spa-Francorchamps (3).json');
-				map.data.loadGeoJson('./geojson/BE-Spa-Francorchamps (4).json');
-				map.data.loadGeoJson('./geojson/BE-Spa-Francorchamps (5).json');
-			}
-			google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
+		<title>Formula 1&reg; Circuits</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBqsNamzWOVmpGCAETlmY43gcfJG7NbWp8&amp;sensor=true"></script>
 	</head>
 	<body>
 		<div id="map-canvas"></div>
+		<div id="info">
+			<h1>F1&reg; Circuits</h1>
+			<div style="overflow:auto;">
+				<form autocomplete="off">
+				<strong>Belgium</strong>
+				<ul>
+					<li>
+						Spa-Francorchamps
+						<ul>
+							<li><input type="checkbox" id="be-spa-francorchamps-1" data-json="./geojson/BE-Spa-Francorchamps (1).json"> <label for="be-spa-francorchamps-1">Trac&eacute; initial (1921)</label></li>
+							<li><input type="checkbox" id="be-spa-francorchamps-2" data-json="./geojson/BE-Spa-Francorchamps (2).json"> <label for="be-spa-francorchamps-2">Trac&eacute; 1939</label></li>
+							<li><input type="checkbox" id="be-spa-francorchamps-3" data-json="./geojson/BE-Spa-Francorchamps (3).json"> <label for="be-spa-francorchamps-3">Trac&eacute; ?</label></li>
+							<li><input type="checkbox" id="be-spa-francorchamps-4" data-json="./geojson/BE-Spa-Francorchamps (4).json"> <label for="be-spa-francorchamps-4">Trac&eacute; 1978</label></li>
+							<li><input type="checkbox" id="be-spa-francorchamps-5" data-json="./geojson/BE-Spa-Francorchamps (5).json"> <label for="be-spa-francorchamps-5">Trac&eacute; actuel (2006)</label></li>
+						</ul>
+					</li>
+				</ul>
+				</form>
+			</div>
+		</div>
+		<a href="https://github.com/jbelien/F1-Circuits"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+		<script type="text/javascript" src="map.js"></script>
+		<script type="text/javascript" src="list.js"></script>
 	</body>
 </html>
