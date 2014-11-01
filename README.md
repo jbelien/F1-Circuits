@@ -9,6 +9,12 @@ Circuits list
 -------------
 * Belgium
     * Spa-Francorchamps (1978 - Today)
+* Brasil
+    * Autodromo Jose Carlos Pace (Today)
+* United Arab Emirates
+    * Yas Marina (Today)
+* United States of America
+    * Circuit of the Americas (Today)
 
 ---------------------------------------
 
