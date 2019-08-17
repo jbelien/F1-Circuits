@@ -1,0 +1,23 @@
+{
+  "name": "f1-circuits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "import": "node scripts/import.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbelien/F1-Circuits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbelien/F1-Circuits/issues"
+  },
+  "homepage": "https://github.com/jbelien/F1-Circuits#readme",
+  "devDependencies": {
+    "query-overpass": "^1.5.3"
+  }
+}

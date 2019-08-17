@@ -1,0 +1,38 @@
+{
+    "be": {
+        "name": "Circuit de Spa-Francorchamps",
+        "link": "https://www.formula1.com/en/racing/2019/Belgium.html#circuit",
+        "geometries": [
+            {
+                "name": "2006 (Actual layout)",
+                "id": "be-2019"
+            },
+            {
+                "name": "1978",
+                "id": null
+            },
+            {
+                "name": "????",
+                "id": null
+            },
+            {
+                "name": "1939",
+                "id": null
+            },
+            {
+                "name": "1921 (Initial layout)",
+                "id": null
+            }
+        ]
+    },
+    "mc": {
+        "name": "Circuit de Monaco",
+        "link": "https://www.formula1.com/en/racing/2019/Monaco.html#circuit",
+        "geometries": [
+            {
+                "name": "Actual layout",
+                "id": "mc-2019"
+            }
+        ]
+    }
+}
