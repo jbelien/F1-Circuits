@@ -11,7 +11,7 @@ const run = async () => {
         const path = `data/openstreetmap/${id}.geojson`;
 
         if (!fs.existsSync(path)) {
-            const query = `rel(${object.id});out body;>;out body;`;
+            const query = `rel(${object.id});out body;>;out skel qt;`;
 
             overpass(query, (err, data) => {
                 if (err) throw err;
