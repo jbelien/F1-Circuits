@@ -8,7 +8,7 @@ const run = async () => {
 
   Object.keys(json).forEach(id => {
     const object = json[id];
-    const path = `data/openstreetmap/${id}.geojson`;
+    const path = `public/data/${id}.geojson`;
 
     if (!fs.existsSync(path)) {
       const query = `${object.type}(${object.id});out body;>;out skel qt;`;
