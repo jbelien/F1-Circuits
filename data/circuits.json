@@ -1,178 +1,178 @@
 {
-    "ae": {
-        "name": "Yas Marina Circuit",
-        "link": "https://www.formula1.com/en/racing/2019/United_Arab_Emirates.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "ae-2019"
-            }
-        ]
-    },
-    "at": {
-        "name": "Red Bull Ring",
-        "link": "https://www.formula1.com/en/racing/2019/Austria.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "at-2019"
-            }
-        ]
-    },
-    "au": {
-        "name": "Melbourne Grand Prix Circuit",
-        "link": "https://www.formula1.com/en/racing/2019/Australia.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "au-2019"
-            }
-        ]
-    },
-    "be": {
-        "name": "Circuit de Spa-Francorchamps",
-        "link": "https://www.formula1.com/en/racing/2019/Belgium.html#circuit",
-        "geometries": [
-            {
-                "name": "2006 (Actual layout)",
-                "id": "be-2019"
-            },
-            {
-                "name": "1978",
-                "id": null
-            },
-            {
-                "name": "????",
-                "id": null
-            },
-            {
-                "name": "1939",
-                "id": null
-            },
-            {
-                "name": "1921 (Initial layout)",
-                "id": null
-            }
-        ]
-    },
-    "bh": {
-        "name": "Bahrain International Circuit",
-        "link": "https://www.formula1.com/en/racing/2019/Bahrain.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "bh-2019"
-            }
-        ]
-    },
-    "ca": {
-        "name": "Circuit Gilles-Villeneuve",
-        "link": "https://www.formula1.com/en/racing/2019/Canada.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "ca-2019"
-            }
-        ]
-    },
-    "cn": {
-        "name": "Shanghai International Circuit",
-        "link": "https://www.formula1.com/en/racing/2019/China.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "cn-2019"
-            }
-        ]
-    },
-    "es": {
-        "name": "Circuit de Barcelona-Catalunya",
-        "link": "https://www.formula1.com/en/racing/2019/Spain.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "es-2019"
-            }
-        ]
-    },
-    "gb": {
-        "name": "Silverstone Circuit",
-        "link": "https://www.formula1.com/en/racing/2019/Great_Britain.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "gb-2019"
-            }
-        ]
-    },
-    "hu": {
-        "name": "Hungaroring",
-        "link": "https://www.formula1.com/en/racing/2019/Hungary.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "hu-2019"
-            }
-        ]
-    },
-    "it": {
-        "name": "Autodromo Nazionale Monza",
-        "link": "https://www.formula1.com/en/racing/2019/Italy.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "it-2019"
-            }
-        ]
-    },
-    "jp": {
-        "name": "Suzuka International Racing Course",
-        "link": "https://www.formula1.com/en/racing/2019/Japan.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "jp-2019"
-            }
-        ]
-    },
-    "mc": {
-        "name": "Circuit de Monaco",
-        "link": "https://www.formula1.com/en/racing/2019/Monaco.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "mc-2019"
-            }
-        ]
-    },
-    "mx": {
-        "name": "Autódromo Hermanos Rodríguez",
-        "link": "https://www.formula1.com/en/racing/2019/Mexico.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "mx-2019"
-            }
-        ]
-    },
-    "sg": {
-        "name": "Marina Bay Street Circuit",
-        "link": "https://www.formula1.com/en/racing/2019/Singapore.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "sg-2019"
-            }
-        ]
-    },
-    "us": {
-        "name": "Circuit of The Americas",
-        "link": "https://www.formula1.com/en/racing/2019/United_States.html#circuit",
-        "geometries": [
-            {
-                "name": "Actual layout",
-                "id": "us-2019"
-            }
-        ]
-    }
+  "ae": {
+    "name": "Yas Marina Circuit",
+    "link": "https://www.formula1.com/en/racing/2019/United_Arab_Emirates.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "ae-2019"
+      }
+    ]
+  },
+  "at": {
+    "name": "Red Bull Ring",
+    "link": "https://www.formula1.com/en/racing/2019/Austria.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "at-2019"
+      }
+    ]
+  },
+  "au": {
+    "name": "Melbourne Grand Prix Circuit",
+    "link": "https://www.formula1.com/en/racing/2019/Australia.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "au-2019"
+      }
+    ]
+  },
+  "be": {
+    "name": "Circuit de Spa-Francorchamps",
+    "link": "https://www.formula1.com/en/racing/2019/Belgium.html#circuit",
+    "geometries": [
+      {
+        "name": "2006 (Current layout)",
+        "id": "be-2019"
+      },
+      {
+        "name": "1978",
+        "id": null
+      },
+      {
+        "name": "????",
+        "id": null
+      },
+      {
+        "name": "1939",
+        "id": null
+      },
+      {
+        "name": "1921 (Initial layout)",
+        "id": null
+      }
+    ]
+  },
+  "bh": {
+    "name": "Bahrain International Circuit",
+    "link": "https://www.formula1.com/en/racing/2019/Bahrain.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "bh-2019"
+      }
+    ]
+  },
+  "ca": {
+    "name": "Circuit Gilles-Villeneuve",
+    "link": "https://www.formula1.com/en/racing/2019/Canada.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "ca-2019"
+      }
+    ]
+  },
+  "cn": {
+    "name": "Shanghai International Circuit",
+    "link": "https://www.formula1.com/en/racing/2019/China.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "cn-2019"
+      }
+    ]
+  },
+  "es": {
+    "name": "Circuit de Barcelona-Catalunya",
+    "link": "https://www.formula1.com/en/racing/2019/Spain.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "es-2019"
+      }
+    ]
+  },
+  "gb": {
+    "name": "Silverstone Circuit",
+    "link": "https://www.formula1.com/en/racing/2019/Great_Britain.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "gb-2019"
+      }
+    ]
+  },
+  "hu": {
+    "name": "Hungaroring",
+    "link": "https://www.formula1.com/en/racing/2019/Hungary.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "hu-2019"
+      }
+    ]
+  },
+  "it": {
+    "name": "Autodromo Nazionale Monza",
+    "link": "https://www.formula1.com/en/racing/2019/Italy.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "it-2019"
+      }
+    ]
+  },
+  "jp": {
+    "name": "Suzuka International Racing Course",
+    "link": "https://www.formula1.com/en/racing/2019/Japan.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "jp-2019"
+      }
+    ]
+  },
+  "mc": {
+    "name": "Circuit de Monaco",
+    "link": "https://www.formula1.com/en/racing/2019/Monaco.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "mc-2019"
+      }
+    ]
+  },
+  "mx": {
+    "name": "Autódromo Hermanos Rodríguez",
+    "link": "https://www.formula1.com/en/racing/2019/Mexico.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "mx-2019"
+      }
+    ]
+  },
+  "sg": {
+    "name": "Marina Bay Street Circuit",
+    "link": "https://www.formula1.com/en/racing/2019/Singapore.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "sg-2019"
+      }
+    ]
+  },
+  "us": {
+    "name": "Circuit of The Americas",
+    "link": "https://www.formula1.com/en/racing/2019/United_States.html#circuit",
+    "geometries": [
+      {
+        "name": "Current layout",
+        "id": "us-2019"
+      }
+    ]
+  }
 }
