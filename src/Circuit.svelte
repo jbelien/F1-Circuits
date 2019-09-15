@@ -4,6 +4,11 @@
 
   export let code;
   export let circuit;
+
+  const geometries = circuit.geometries.filter(version => {
+    console.log(version);
+    return version.id !== null;
+  });
 </script>
 
 <style>
@@ -20,7 +25,7 @@
 <div class="circuit">
   <Title code="{code}" name="{circuit.name}" link="{circuit.link}" />
   <ul>
-  {#each circuit.geometries as geometry}
+  {#each geometries as geometry}
   <Version id="{geometry.id}" name="{geometry.name}" />
   {/each}
   </ul>
