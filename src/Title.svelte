@@ -27,6 +27,7 @@
   .circuit-title > .circuit-link > a,
   .circuit-title > .circuit-link > a:visited {
     color: dodgerblue;
+    text-decoration: none;
   }
 </style>
 
@@ -35,7 +36,7 @@
   <h2>{ name }</h2>
   <div class="circuit-link">
     <a href="{ link }" target="_blank" title="More information...">
-      <i class="fas fa-info-circle"></i>
+      <i class="mi-circle-information"></i>
     </a>
   </div>
 </div>
